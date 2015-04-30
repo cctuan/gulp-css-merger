@@ -1,0 +1,36 @@
+{
+  "name": "gulp-css-merger",
+  "description": "Merge css from your html",
+  "version": "0.0.1",
+  "homepage": "http://github.com/cctuan/gulp-css-merger",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cctuan/gulp-css-merger.git"
+  },
+  "contributors": [
+    {
+      "name": "George Tuan",
+      "email": "georgeiscoming@gmail.com"
+    }
+  ],
+  "main": "./index.js",
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "through2": "^0.6.3",
+    "jsdom": "^3.1.2",
+    "sqwish": "~0.2.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/cctuan/gulp-css-merger/issues"
+  }
+}
