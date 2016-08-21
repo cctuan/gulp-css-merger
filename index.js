@@ -1,6 +1,6 @@
 /* jshint node: true, strict: true */
 'use strict';
-
+var testPull; 
 var fs = require('fs');
 var path = require('path');
 var jsdom = require('jsdom');
